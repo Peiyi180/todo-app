@@ -5,7 +5,7 @@ const _ = require('lodash');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://p-j:Qqqqqq123..@cluster0.64h6c.mongodb.net/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://p-j:787878@cluster0.64h6c.mongodb.net/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
 
 const itemsSchema = {
   name: String
