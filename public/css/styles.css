@@ -94,3 +94,17 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+a:link, a:visited {
+  background-color: #355eb8;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 70%;
+}
+
+a:hover, a:active {
+  background-color: rgb(13, 121, 163);
+}
